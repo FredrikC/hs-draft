@@ -1,0 +1,6 @@
+C:\Users\Fredrik\Source\hs-draft\hs-draft\bin\hs-draft.dll.config
+C:\Users\Fredrik\Source\hs-draft\hs-draft\bin\hs-draft.dll
+C:\Users\Fredrik\Source\hs-draft\hs-draft\bin\hs-draft.pdb
+C:\Users\Fredrik\Source\hs-draft\hs-draft\obj\Debug\hs-draft.csprojResolveAssemblyReference.cache
+C:\Users\Fredrik\Source\hs-draft\hs-draft\obj\Debug\hs-draft.dll
+C:\Users\Fredrik\Source\hs-draft\hs-draft\obj\Debug\hs-draft.pdb
