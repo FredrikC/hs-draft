@@ -25,6 +25,17 @@
     <Content Include="content\app.css" />
     <Content Include="index.html" />
     <None Include="scripts\all-cards.json" />
+    <Content Include="scripts\external\typed-react\component.js" />
+    <Content Include="scripts\external\typed-react\create_class.js" />
+    <Content Include="scripts\external\typed-react\create_mixin.js" />
+    <Content Include="scripts\external\typed-react\extract_prototype.js" />
+    <Content Include="scripts\external\typed-react\index.js" />
+    <Content Include="scripts\external\typed-react\mixin.js" />
+    <Content Include="scripts\external\typed-react\not_implemented_error.js" />
+    <Content Include="scripts\external\react\react-with-addons.js" />
+    <Content Include="scripts\external\react\react-with-addons.min.js" />
+    <Content Include="scripts\external\react\react.js" />
+    <Content Include="scripts\external\react\react.min.js" />
     <Content Include="scripts\external\requirejs\require.js" />
     <Content Include="scripts\general.js" />
     <Content Include="web.config" />
@@ -38,11 +49,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="scripts\external\interfaces\require.d.ts" />
+    <TypeScriptCompile Include="scripts\external\react\react-dom.d.ts" />
+    <TypeScriptCompile Include="scripts\external\react\react.d.ts" />
+    <TypeScriptCompile Include="scripts\external\requirejs\require.d.ts" />
     <TypeScriptCompile Include="scripts\app.ts" />
+    <TypeScriptCompile Include="scripts\external\typed-react\typed-react.d.ts" />
     <TypeScriptCompile Include="scripts\initializer.ts" />
     <TypeScriptCompile Include="scripts\card.ts" />
     <TypeScriptCompile Include="scripts\external\interfaces\jquery.d.ts" />
+    <TypeScriptCompile Include="scripts\test.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
